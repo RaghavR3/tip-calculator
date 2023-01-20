@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Calculator from "./components/calculator";
+import Form from "./components/form";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="h-[100vh] bg-primary-sky-blue flex flex-col items-center justify-center">
+      <h1 className="font-body text-2xl font-bold text-tertiary-green pb-20">
+        S P L I <br /> T T E R
+      </h1>
+      <Form />
     </div>
   );
 }
